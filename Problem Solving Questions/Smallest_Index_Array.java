@@ -9,13 +9,13 @@ class Find_Largest_Number{
         for(int i = 0; i < n; i++){
             a[i] = sc.nextInt();
         }
-        int largest = a[0];
+        int smallest = a[0];
         for(int i = 0; i < a.length; i++){
-            if(a[i] > a[0]){
-                largest = i;
+            if(a[i] < a[0]){
+                smallest = i;
             }
         }
-        System.out.print("Largest index: " + largest);
+        System.out.print("Smallest index: " + smallest)
         // for(int i = 0; i < n; i++){
         //     for(int j = 0; j < i; j++){
         //         if(a[i] > a[j]){
@@ -28,3 +28,7 @@ class Find_Largest_Number{
         // System.out.print(a[largest]);
     }
 }
+
+// a = a + b = 2 + 3 = 5
+// b = a - b = 5 - 2 = 3
+// a = a - b = 5 - 3 = 2
