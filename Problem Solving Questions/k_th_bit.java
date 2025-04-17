@@ -22,6 +22,6 @@ class k_th_bit{
                 count += 1;
             }
         }
-        System.out.print("\nCount: " + count);
+        System.out.print("Count: " + count);
     }
 }
