@@ -13,5 +13,6 @@ class Read_Character_Input{
         }
         System.out.print(count);
         sc.close();
+        
     }
 }
