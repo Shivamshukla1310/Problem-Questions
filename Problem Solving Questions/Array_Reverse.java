@@ -9,7 +9,7 @@ class Array_Reverse{
 
 
         System.out.println("Enter Array Elements: ");
-        for(int i = n - 1; i > 0; i--){
+        for(int i = n - 1; i >= 0; i--){
             arr[i] = sc.nextInt();
         }
 
