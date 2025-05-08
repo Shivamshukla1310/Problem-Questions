@@ -11,8 +11,12 @@ class Array_Armstrong{
             arr[i] = sc.nextInt();
         }
 
+        int length_arr = arr.length();
+
         for(int i = 0; i < n; i++){
-            armstrong = 
+            armstrong = armstrong + Math.pow(arr[i],length_arr);
         }
+
+        
     }
 }
