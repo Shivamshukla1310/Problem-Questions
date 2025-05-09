@@ -17,6 +17,6 @@ class Array_Armstrong{
             armstrong = armstrong + Math.pow(arr[i],length_arr);
         }
 
-        
+        System.out.println(armstrong);
     }
 }
