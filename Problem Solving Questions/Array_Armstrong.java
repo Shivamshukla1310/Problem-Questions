@@ -5,13 +5,13 @@ class Array_Armstrong{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n];
-        int armstrong = 0;
+        double armstrong = 0;
         System.out.println("Enter Elements: ");
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
 
-        int length_arr = arr.length();
+        int length_arr = arr.length;
 
         for(int i = 0; i < n; i++){
             armstrong = armstrong + Math.pow(arr[i],length_arr);
