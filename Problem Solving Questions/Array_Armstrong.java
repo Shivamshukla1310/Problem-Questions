@@ -17,6 +17,11 @@ class Array_Armstrong{
             armstrong = armstrong + Math.pow(arr[i],length_arr);
         }
 
-        System.out.println(armstrong);
+        if(n == armstrong){
+            System.out.println(armstrong + " Is Armstrong Number");
+        }
+        else{
+            System.out.println(armstrong + " Is Not Armstrong Number");
+        }
     }
 }
